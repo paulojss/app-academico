@@ -1,0 +1,15 @@
+language: node_js
+  node_js:
+  - "11"
+before_stall:
+- npm install -g @angular/cli
+install: npm install
+branches:
+  only:
+  - master
+after_script:
+deploy:
+  provider: heroku
+  api_key:
+    secure: $HEROKU_API_KEY
+  app: app-academico

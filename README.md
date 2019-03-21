@@ -1,4 +1,5 @@
 # AppAcademico
+[![Build Status](https://travis-ci.org/paulojss/app-academico.svg?branch=master)](https://travis-ci.org/paulojss/app-academico)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 
